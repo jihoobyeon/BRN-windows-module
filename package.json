@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/babylonjs/BRN-windows.git#module",
-    "baseUrl": "https://github.com/babylonjs/BRN-windows"
+    "url": "git+https://github.com/babylonjs/BRN-windows-module.git",
+    "baseUrl": "https://github.com/babylonjs/BRN-windows-module"
   },
   "dependencies": {
     "@babylonjs/core": ">=5.53.1",
-    "@babylonjs/react-native": "^1.8.6",
-    "react": "^18.3.0",
-    "react-native": "^0.75.0",
-    "react-native-windows": "0.75.2"
+    "@babylonjs/react-native": ">=1.8.6",
+    "react": ">=18.3.0",
+    "react-native": "^0.77.0",
+    "react-native-windows": "^0.77.0"
   },
   "author": {
     "name": "Jihoo Byeon",
@@ -43,7 +43,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@3.6.4",
+  "packageManager": "yarn@1.22.22",
   "codegenConfig": {
     "name": "BabylonModuleSpec",
     "type": "modules",
